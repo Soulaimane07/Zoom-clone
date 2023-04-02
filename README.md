@@ -1,4 +1,4 @@
-<h1> Zoom-clone </h1>
+<h1> Zoom Clone Mobile App </h1>
 
 <h3> Scan the QR code with expo </h3>
 

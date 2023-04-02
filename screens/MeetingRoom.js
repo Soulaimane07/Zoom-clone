@@ -48,7 +48,7 @@ function MeetingRoom() {
   }
 
   useEffect(()=>{
-    socket = io('https://35ba-105-67-6-187.eu.ngrok.io')
+    socket = io('https://zoom-clone-server.onrender.com/')
     console.log('I am connected');
     socket.on('connection', ()=> console.log('connected'))
     socket.on('all-users', users => {
